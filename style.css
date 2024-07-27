@@ -1,0 +1,750 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{font-size: 1.25em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+p{font-size: 1.25em;}
+li{font-size: 1.25em;}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+
+nav{
+    /* position: fixed; */
+    display: none;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+#navbar{
+    background-color: #0f1e22;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+}
+#navbar a:hover{
+    color: #bfd7de;
+}
+#PYS{
+    margin-left: 40px;
+    margin-right: 40px
+}
+#SN{
+    margin-right: 40px
+}
+#FAQ{
+    margin-right: 40px;
+}
+#navboton{
+    cursor: pointer;
+    margin-left: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 40px;
+    border: solid 2px white;
+    background-color: #0f1e22;
+    color: white;
+    transition: transform 0.1s ease-in-out;
+    font-weight: bold;
+}
+#navboton:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px #0056b3;
+}
+
+
+
+
+
+.img-container{
+    display: none;
+}
+#seccion1{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(49,9,80,1) 52%, rgba(6,0,10,1) 100%);  
+    padding-bottom: 250px;
+}
+#seccion1 .titulo-container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#olympus-titulo h1{
+    font-size: 80px;
+    padding-top: 100px;
+    transition: 1s;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+#olympus-titulo h2{
+    font-size: 80px;
+    padding-top: 50px;
+    transition: 1s;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+#seccion1 .btn{
+    margin-top: 190px;
+}
+
+
+
+#seccion2 .container{
+    padding: 100px 0px;
+}
+#seccion2{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgb(2, 32, 20) 52%, rgba(6,0,10,1) 100%);  
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+#seccion2 h2{
+    margin-top: 0;
+    color: #222;
+    transition: 1s;
+    margin-bottom: 100px;
+}
+#seccion2 h2:hover{
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+#seccion2 ul{
+    display: none;
+}
+#seccion2 .carta{
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 50px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+#seccion2 .carta:hover{
+    box-shadow: 15px -11px 0px 0px rgb(112, 115, 112);
+}
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("imagenes/tarjetas/marketing-digital.jpg");
+}
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("imagenes/tarjetas/diseño-grafico.jpg");
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("imagenes/tarjetas/desarrollo-web.jpg");
+}
+.carta:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("imagenes/tarjetas/analisis.jpg");
+}
+.carta:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("imagenes/tarjetas/consultoria.jpg");
+}
+
+
+
+
+
+
+
+#seccion3 .container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#seccion3{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgb(27, 123, 152) 52%, rgba(6,0,10,1) 100%);  
+    padding: 50px;
+    color: white;
+    padding-bottom: 50px;
+}
+#seccion3 h2{
+    transition: 1s;
+    color: #222;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#seccion3 h2:hover{
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+#seccion3 h2:hover{
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+
+
+
+.cartas2{
+    display: inline-block;
+    padding-top: 50px;
+    width: 400px;
+}
+.cartas2 h5{
+    background-color: rgb(55, 54, 54);
+    font-size: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cartas2 h3{
+    background-color: #736e6e;
+    padding: 25px;
+    font-size: 27px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    text-align: left;
+}
+.cartas2 h3:hover{
+    background-color: #00C3FF;
+}
+#seccion3 .btn{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+#seccion4{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(27,3,46,1) 55%);  
+    padding-bottom: 250px;
+    padding: 100px;
+    padding-bottom: 300px;
+}
+#seccion4 h2 {
+    display: flex;
+    flex-direction: column; 
+    text-align: center; 
+}
+#seccion4 #seccion4Titulo{
+    margin: 0;
+    color: #222;
+    transition: 1s;
+    margin-bottom: 100px;
+    margin-bottom: 20px;
+}
+#seccion4 #seccion4Titulo:hover{
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+#seccion4 #mitadTitulo{
+    margin-top: 0;
+    color: #222;
+    transition: 1s;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#seccion4 #mitadTitulo:hover{
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+#seccion4 .textoSeccion4 p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(57, 36, 55);
+    font-size: 20px;
+    text-align: center;
+    transition: 1s;
+}
+#seccion4 .textoSeccion4 p:hover{
+    color: #9c9393;
+}
+
+
+
+
+
+#seccion5{
+    background: rgb(27,3,46);
+    background: linear-gradient(180deg, rgba(27,3,46,1) 0%, rgba(0,0,0,1) 32%);
+    padding: 50px;
+    color: white;
+}
+#seccion5 .container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#seccion5 h2{
+    transition: 1s;
+    color: #222;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    font-size: 60px;
+}
+#seccion5 h2:hover{
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+#seccion5 h2:hover{
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+.targetas5 h5{
+    background-color: #736e6e;
+    font-size: 50px;
+    padding: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+.targetas5 h3{
+    background-color: rgb(54, 53, 53);
+    padding: 25px;
+    font-size: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+.targetas5{
+    display: inline-block;
+    padding-top: 50px;
+    width: 400px;
+}
+.targetas5 h5:hover{
+    background-color: #00C3FF;
+}
+
+
+
+#seccion6{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(49,9,80,1) 52%, rgba(6,0,10,1) 100%);  
+    padding-bottom: 250px;
+    padding: 100px;
+    padding-bottom: 400px;
+}
+#seccion6 h2{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    transition: 1s;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+#seccion6 .container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+    font-size: 25px;
+    margin-top: 75px;
+}
+.btn::after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(20, 18, 18);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+.btn::before{
+    content: "";
+    background: linear-gradient(
+        45deg,
+        #00ffd5, #002bff, #ff00c8
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 0;
+}
+@keyframes glowing{
+    0% {background-position: 0 0;}
+    50%{background-position: 400% 0;}
+    100%{background-position: 0 0;}
+}
+.btn:hover::before{
+    opacity: 1;
+}
+.btn:active::after{
+    background: transparent;
+}
+.btn:active{
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.footer{
+    background-color: black;
+    padding: 50px 0;
+}
+.footer-row{
+    display:flex;
+    flex-wrap: wrap;
+}
+.footer-links{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-links h4{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #00C3FF;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.footer-links ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #BBBBBB;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+.footer-links ul li a:hover{
+    color: white;
+    padding-left: 6px;
+}
+.social-links a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    transition: all .5s ease;
+}
+#face:hover a{
+    background-color: blue;
+}
+#insta:hover a{
+    background-color: purple
+}
+#tuita:hover a{
+    background-color: #00C3FF;
+}
+#linkedin:hover a{
+    background-color: darkblue;
+}
+.footer-links h5{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:991px){
+    .footer-row{
+        text-align: center;
+    }
+    .footer-links{
+        width: 50%;
+        margin-bottom: 30px;
+    }  
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1280px){
+    nav{
+        display: flex;
+        /* position: fixed; */
+        margin-left: 600px;
+        padding-top: 50px;
+    }
+    .titulo-container{
+        width: fit-content;
+        text-align: left;
+        justify-content: flex-start;
+        align-items: flex-start; 
+    }
+    .img-container{
+        display: flex;
+        width: fit-content;
+        padding-top: 50px;
+        padding-left: 100px;
+    }
+    #olympus-titulo{
+        width: fit-content;
+        position: absolute;
+        top: 350px;
+        left: 500px;
+    }
+    #olympus-titulo h1{
+        padding-top: 0px;
+        padding-left: 0px;
+        font-size: 80px;
+        display: flex;
+        position: relative;
+    }
+    #olympus-titulo h2{
+        font-size: 80px;
+        padding-left: 300px;
+        display: flex;
+    }
+    #botonSeccion1{
+        width: fit-content;
+        display: flex;
+        padding-top: 150px;
+        padding-left: 1000px;
+    }
+
+
+    
+
+
+    #seccion2 .container{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #seccion2 ul{
+        display: block;
+        text-align: left;
+        padding-left: 10px;
+    }
+    #seccion2 ul li{
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+    #seccion2 h3{
+        margin-bottom: 20px;
+    }
+    #seccion2 .carta{
+        padding: 30px;
+        margin: 20px 20px;
+        width: 355px;
+        height: 500px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+
+    #seccion3 .cartas2{
+        padding: 0px;
+        margin: 10px;
+    }
+    #seccion3 #botonSeccion3{
+        padding-top: 30px;
+        padding-left: 900px;
+    }
+
+    #seccion4 .container{
+        display: flex;
+        justify-content: center;
+    }
+    #seccion4 .textoSeccion4{
+        width: 50%;
+        padding-left: 60px;
+    }
+    #seccion4 .textoSeccion4 p{
+        font-size: 18px;
+    }
+    #seccion4 .containerSeccion4img{
+        background-image: url(imagenes/prof.jpg);
+        background-size: cover;
+        background-position: center center;
+        width: 750px;
+        height: 570px;
+    }
+    #seccion4 h2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #seccion4 #mitadTitulo{
+        margin-bottom: 150px;
+    }
+    #seccion4 .textoSeccion4 p{
+        text-align: left;
+    }
+
+
+    #seccion5 .targetas5{
+        padding: 50px;
+    }
+    #seccion5 .targetas5{
+        width: 500px;
+    }
+}
+
+
+
+@media (min-width: 1900px){
+    nav{
+        margin-left: 783px;
+        padding-top: 60px;
+    }
+    #botonSeccion1{
+        padding-left: 1430px;
+        padding-top: 0;
+    }
+    #olympus-titulo{
+        top: 360px;
+        left: 800px;
+    }
+    #olympus-titulo h1{
+        font-size: 100px;
+    }
+    #olympus-titulo h2{
+        font-size: 100px;
+        padding-left: 300px;
+    }
+    #seccion1 #imagenlogo{
+        height: 500px;
+        width: 500px;
+    }
+    #seccion2 .carta{
+        padding: 30px;
+        margin: 20px 20px;
+        width: 420px;
+        height: 500px;   
+    }
+
+    #seccion3 .cartas2{
+        padding: 0px;
+        margin: 31px;
+    }
+    #seccion3 #botonSeccion3{
+        padding-top: 100px;
+        padding-left: 1100px;
+    }
+    #seccion4 .textoSeccion4 p{
+        font-size: 22.8px;
+    }
+    #seccion5 .targetas5{
+        margin: 10px;
+        padding: 0px;
+        width: 320px;
+        padding-top: 100px;
+        padding-bottom: 250px;
+    }
+}
+
+
+
