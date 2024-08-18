@@ -3,11 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 html{
     scroll-behavior: smooth;
 }
-
 h1{font-size: 1.25em;}
 h2{font-size: 2.7em;}
 h3{font-size: 2em;
@@ -20,8 +18,6 @@ ul {
     margin: 0;
     padding: 0;
 }
-
-
 body{
     font-family: sans-serif;
     margin: 0;
@@ -30,7 +26,6 @@ body{
     max-width: 1400px;
     margin: 0 auto;
 }
-
 
 
 nav{
@@ -82,11 +77,6 @@ nav{
     transform: translateY(2px);
     box-shadow: 0 2px #0056b3;
 }
-
-
-
-
-
 .img-container{
     display: none;
 }
@@ -124,12 +114,6 @@ nav{
 }
 
 
-
-
-
-
-
-
 #seccion2 .container{
     padding: 100px 0px;
 }
@@ -155,18 +139,9 @@ nav{
     margin-top: 20px;
     transition: 1s;
 }
-#seccion2 h2:hover{
-    color: #FFFFFF;
-    text-shadow: 0 0 5px #03e9f4,
-    0 0 25px #03e9f4,
-    0 0 50px #03e9f4,
-    0 0 100px #03e9f4;  
-}
 #seccion2 h2:hover:after {
     background-color: #03e9f4; /* Cambiamos el color a celeste */
 }
-
-
 #seccion2 ul{
     display: none;
 }
@@ -223,11 +198,6 @@ nav{
 }
 
 
-
-
-
-
-
 #seccion3 .container{
     text-align: center;
     justify-content: center;
@@ -274,7 +244,6 @@ nav{
     border-top-right-radius: 10px;
     cursor: pointer;
     text-align: left;
-
 }
 .cartas2 h3{
     background-color: #736e6e;
@@ -289,10 +258,6 @@ nav{
 #seccion3 .btn{
     margin-top: 100px;
 }
-
-
-
-
 
 
 #seccion4{
@@ -313,28 +278,12 @@ nav{
     margin-bottom: 100px;
     margin-bottom: 20px;
 }
-#seccion4 #seccion4Titulo:hover{
-    color: #FFFFFF;
-    text-shadow: 0 0 5px #03e9f4,
-    0 0 25px #03e9f4,
-    0 0 50px #03e9f4,
-    0 0 100px #03e9f4;
-}
-
-
 #seccion4 #mitadTitulo{
     margin-top: 0;
     color: #222;
     transition: 1s;
     margin-bottom: 50px;
     text-align: center;
-}
-#seccion4 #mitadTitulo:hover{
-    color: #FFFFFF;
-    text-shadow: 0 0 5px #03e9f4,
-    0 0 25px #03e9f4,
-    0 0 50px #03e9f4,
-    0 0 100px #03e9f4;
 }
 #seccion4 #mitadTitulo:after {
     content: "";
@@ -360,10 +309,6 @@ nav{
     border-left: 3px solid #00C3FF;
     padding-left: 30px;
 }
-
-
-
-
 
 
 #seccion5{
@@ -403,7 +348,6 @@ nav{
 #seccion5 h2:hover:after {
     background-color: #03e9f4; /* Cambiamos el color a celeste */
 }
-
 .targetas5 h5{
     background-color: #736e6e;
     font-size: 50px;
@@ -429,12 +373,6 @@ nav{
 .targetas5 h5:hover{
     background-color: #00C3FF;
 }
-
-
-
-
-
-
 
 
 .call-to-action {
@@ -463,40 +401,28 @@ nav{
     border-radius: 15px;
     overflow: hidden;
 }
-  
 .call-to-action .container:before {
     content: "";
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
     inset: 0;
     z-index: 2;
-}
-  
+} 
 .call-to-action .container .content {
     position: relative;
     z-index: 3;
 }
-  
 .call-to-action h3 {
-    color: #222;
+    color: rgb(220,220,220);
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 80px;
     transition: 1s;
 }
-.call-to-action h3:hover{
-    color: #FFFFFF;
-    text-shadow: 0 0 5px #03e9f4,
-    0 0 25px #03e9f4,
-    0 0 50px #03e9f4,
-    0 0 100px #03e9f4;
-}
-  
 .call-to-action p {
     color: #222;
     margin-bottom: 20px;
-}
-  
+} 
 .call-to-action .play-btn {
     width: 94px;
     height: 94px;
@@ -506,8 +432,7 @@ nav{
     display: inline-block;
     position: relative;
     overflow: hidden;
-}
-  
+} 
 .call-to-action .play-btn:before {
     content: "";
     position: absolute;
@@ -524,8 +449,7 @@ nav{
     top: -15%;
     left: -15%;
     background: rgba(198, 16, 0, 0);
-}
-  
+} 
 .call-to-action .play-btn:after {
     content: "";
     position: absolute;
@@ -540,7 +464,6 @@ nav{
     z-index: 100;
     transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
-  
 .call-to-action .play-btn:hover:before {
     content: "";
     position: absolute;
@@ -556,13 +479,11 @@ nav{
     z-index: 200;
     animation: none;
     border-radius: 0;
-}
-  
+} 
 .call-to-action .play-btn:hover:after {
     border-left: 15px solid #00C3FF;
     transform: scale(20);
-}
-  
+} 
 .call-to-action .cta-btn {
     font-family: #172a28;
     font-weight: 500;
@@ -577,7 +498,6 @@ nav{
     color: #ffffff;
     text-decoration: none;
 }
-  
 .call-to-action .cta-btn:hover {
     background: #00C3FF;
     border: 2px solid #00C3FF;
@@ -594,16 +514,6 @@ nav{
       opacity: 0;
     }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 .btn{
@@ -665,8 +575,6 @@ nav{
 }
 
 
-
-
 .faq {
     width: 100%;
     display: flex;
@@ -686,7 +594,7 @@ nav{
     font-size: 40px;
     padding-top: 100px;
     padding-bottom: 20px;
-    padding-left: 70px;
+    padding-left: 30px;
     padding-right: 40px;
     transition: 1s;
     color: #222;
@@ -698,8 +606,6 @@ nav{
     0 0 50px #03e9f4,
     0 0 100px #03e9f4;  
 }
-
-
 #frec{
     padding-left: 100px;
 }
@@ -755,15 +661,12 @@ nav{
     transform: rotate(-45deg);
     transition: 0.4s ease-in-out;
 }
+
 @media screen and (max-width:680px) {
     .faq-title{
         font-size: 20px;
     }
 }
-
-
-
-
 
 
 .footer{
@@ -826,14 +729,6 @@ nav{
 
 
 
-
-
-
-
-
-
-
-
 @media(max-width:399px){
     #seccion3 .cartas2{
         padding: 0;
@@ -854,7 +749,14 @@ nav{
         padding-bottom: 12px;
         font-size: 15px;
     }
-
+    #seccion4 h2{
+        text-align: left;
+        font-size: 37px;
+    }
+    #seccion4 .textoSeccion4 p{
+        text-align: left;
+        padding-left: 30px;
+    }
     #seccion5 .targetas5 h5{
         font-size: 30px;
         padding: 15px;
@@ -871,6 +773,7 @@ nav{
         margin: 0;
     }
 }
+
 
 @media(min-width:400px) and (max-width:599px){
     #seccion3 .cartas2{
@@ -892,7 +795,6 @@ nav{
         padding-bottom: 12px;
         font-size: 20px;
     }
-
     #seccion5 .targetas5 h5{
         font-size: 30px;
         padding: 15px;
@@ -909,6 +811,8 @@ nav{
         margin: 0;
     }
 }
+
+
 @media(min-width:600px) and (max-width:1279px){
     #seccion3 .cartas2{
         padding: 10px;
@@ -930,8 +834,6 @@ nav{
         font-size: 20px;
     }
 }
-
-
 
 
 @media(max-width:991px){
@@ -988,9 +890,6 @@ nav{
         padding-top: 150px;
         padding-left: 1000px;
     }
-
-
-
     #seccion2 .container{
         text-align: center;
         justify-content: center;
@@ -1016,8 +915,6 @@ nav{
         display: inline-block;
         vertical-align: top;
     }
-
-
     #seccion3 .cartas2{
         margin: 30px;
         width: 400px;
@@ -1038,9 +935,6 @@ nav{
         padding-top: 30px;
         padding-left: 900px;
     }
-
-
-
     #seccion4 .container{
         display: flex;
         justify-content: center;
@@ -1070,15 +964,10 @@ nav{
     #seccion4 .textoSeccion4 p{
         text-align: left;
     }
-
     #seccion5 .targetas5{
         margin: 50px;
     }
-
-
-
 }
-
 
 
 @media (min-width: 1900px){
@@ -1111,13 +1000,10 @@ nav{
         width: 420px;
         height: 500px;   
     }
-
-
     #seccion3 #botonSeccion3{
         padding-top: 90px;
         padding-left: 1100px;
     }
-
     #seccion4 .textoSeccion4 p{
         font-size: 22.8px;
     }
