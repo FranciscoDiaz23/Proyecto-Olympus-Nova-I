@@ -986,8 +986,20 @@ nav{
 
 
     #seccion3 .cartas2{
-        padding: 0px;
         margin: 30px;
+        width: 400px;
+    }
+    #seccion3 .cartas2 h5{
+        font-size: 16px;
+        padding-left: 17px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    #seccion3 .cartas2 h3{
+        padding-left: 17px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 27px;
     }
     #seccion3 #botonSeccion3{
         padding-top: 30px;
@@ -1079,12 +1091,9 @@ nav{
         height: 500px;   
     }
 
-    #seccion3 .cartas2{
-        padding: 0px;
-        margin: 31px;
-    }
+
     #seccion3 #botonSeccion3{
-        padding-top: 100px;
+        padding-top: 90px;
         padding-left: 1100px;
     }
 
