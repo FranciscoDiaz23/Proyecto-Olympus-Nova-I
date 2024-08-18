@@ -421,9 +421,10 @@ nav{
     cursor: pointer;
 }
 .targetas5{
-    /* display: inline-block; */
+    display: inline-block;
     padding-top: 50px;
     width: 400px;
+    margin: 10px;
 }
 .targetas5 h5:hover{
     background-color: #00C3FF;
@@ -853,6 +854,22 @@ nav{
         padding-bottom: 12px;
         font-size: 15px;
     }
+
+    #seccion5 .targetas5 h5{
+        font-size: 30px;
+        padding: 15px;
+    }
+    #seccion5 .targetas5 h3{
+        padding: 15px;
+        font-size: 10px;
+    }
+    #seccion5 .targetas5{
+        width: 250px;
+    }
+    #seccion5 h2{
+        font-size: 50px;
+        margin: 0;
+    }
 }
 
 @media(min-width:400px) and (max-width:599px){
@@ -874,6 +891,22 @@ nav{
         padding-top: 12px;
         padding-bottom: 12px;
         font-size: 20px;
+    }
+
+    #seccion5 .targetas5 h5{
+        font-size: 30px;
+        padding: 15px;
+    }
+    #seccion5 .targetas5 h3{
+        padding: 15px;
+        font-size: 10px;
+    }
+    #seccion5 .targetas5{
+        width: 250px;
+    }
+    #seccion5 h2{
+        font-size: 50px;
+        margin: 0;
     }
 }
 @media(min-width:600px) and (max-width:1279px){
@@ -1038,24 +1071,12 @@ nav{
         text-align: left;
     }
 
-
-
     #seccion5 .targetas5{
-        padding: 0;
-        padding-bottom: 20px;
+        margin: 50px;
     }
-    #seccion5 .targetas5:nth-child(2){
-        margin-left: 100px;
-    }
-    #seccion5 .targetas5:nth-child(3){
-        margin-left: 350px;
-    }
-    #seccion5 .targetas5:nth-child(4){
-        margin-left: 550px;
-    }
-    #seccion5 .targetas5:nth-child(5){
-        margin-left: 750px;
-    }
+
+
+
 }
 
 
@@ -1101,23 +1122,18 @@ nav{
         font-size: 22.8px;
     }
     #seccion5{
-        padding-bottom: 550px;
+        padding-bottom: 100px;
     }
     #seccion5 .targetas5{
-        position: absolute;
+        margin:0;
     }
     #seccion5 .targetas5:nth-child(2){
-        margin-left: 100px;
+        margin-right: 100px;
     }
     #seccion5 .targetas5:nth-child(3){
-        margin-left: 375px;
-        margin-top: 225px;
+        margin-right: 100px;
     }
     #seccion5 .targetas5:nth-child(4){
-        margin-left: 650px;
-    }
-    #seccion5 .targetas5:nth-child(5){
-        margin-left: 925px;
-        margin-top: 225px;
+        margin-right: 100px;
     }
 }
